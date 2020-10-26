@@ -140,7 +140,6 @@ export default function e(){return console.log("example"),1}
 
 --------------------------------------------------------------------------------
 
-<<<<<<< HEAD
 FILE: stubs/minimal/index.html
 <!DOCTYPE html>
 <html lang="en">
@@ -150,6 +149,7 @@ FILE: stubs/minimal/index.html
     <link rel="stylesheet" href="style.css" />
     <!-- [@snowpack/plugin-optimize] Add modulepreload to improve unbundled load performance (More info: https://developers.google.com/web/updates/2017/12/modulepreload) -->
     <link rel="modulepreload" href="/esm_example.js" />
+
   </head>
   <body>
     <script type="module" src="index.js"></script>
@@ -157,14 +157,13 @@ FILE: stubs/minimal/index.html
     <script type="module" src="./do-not-preload-2.js"></script>
     <!-- [@snowpack/plugin-optimize] modulepreload fallback for browsers that do not support it yet -->
     <script type="module" src="/esm_example.js"></script>
+
   </body>
 </html>
 
 
 --------------------------------------------------------------------------------
 
-=======
->>>>>>> 073286a5 (Update plugin-optimize snapshot)
 FILE: stubs/minimal/index.js
 import"./esm_example.js";import("./do-not-preload-3.js"),(()=>{function o(e){console.log(e)}o("test")})();
 
