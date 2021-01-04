@@ -9,10 +9,10 @@ module.exports = {
       inject: {
         importMap: {
           imports: {
-            './src/foobar.js':
-              './src/mocks/foobar.mock.js',
+            './_dist_/foobar.js':
+              './_dist_/mocks/foobar.mock.js',
             'mathjs':
-              './src/mocks/mathjs.mock.js'
+              './_dist_/mocks/mathjs.mock.js'
           }
         }
       }
