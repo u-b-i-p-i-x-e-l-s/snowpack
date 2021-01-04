@@ -11,7 +11,7 @@ module.exports = {
           imports: {
             './_dist_/foobar.js':
               './_dist_/mocks/foobar.mock.js',
-            'mathjs':
+            './web_modules/mathjs.js':
               './_dist_/mocks/mathjs.mock.js'
           }
         }
